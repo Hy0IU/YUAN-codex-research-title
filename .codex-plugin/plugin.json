@@ -1,0 +1,16 @@
+{
+  "name": "yuan-codex-research-title",
+  "version": "0.1.0",
+  "description": "按科研工作类型维护 Codex 对话标题。",
+  "author": { "name": "YUAN" },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "YUAN Codex Research Title",
+    "shortDescription": "为科研对话生成稳定、易检索的标题",
+    "longDescription": "每轮对话结束后，在后台读取近期内容并判断是否需要更新标题。按文献、idea、方法、实验、代码、结果、论文和图表分类；保护手动标题，不向原对话追加消息。仅支持本地 Codex Stop Hook。",
+    "developerName": "YUAN",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "检查 YUAN Codex Research Title 的配置和 Hook 状态。"
+  }
+}
